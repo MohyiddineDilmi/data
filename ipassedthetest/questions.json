@@ -7,32 +7,32 @@
         "es": "Un miembro del Parlamento de Montreal anuncia que pasará su fin de semana en su distrito electoral. Esto significa que ella estaría:",
         "ar": "أعلنت عضوة برلمان من مونتريال أنها ستقضي عطلة نهاية الأسبوع في دائرتها الانتخابية. وهذا يعني أنها ستكون:"
       },
-      "options": [
-        {
-          "en": "In her office on Parliament Hill.",
-          "fr": "Dans son bureau sur la colline du Parlement.",
-          "es": "En su oficina en Parliament Hill.",
-          "ar": "في مكتبها على تل البرلمان."
-        },
-        {
-          "en": "Visiting the province of Quebec.",
-          "fr": "En visite dans la province de Québec.",
-          "es": "Visitando la provincia de Quebec.",
-          "ar": "في زيارة لمقاطعة كيبيك."
-        },
-        {
-          "en": "In the part of Montreal where she was elected.",
-          "fr": "Dans la partie de Montréal où elle a été élue.",
-          "es": "En la parte de Montreal donde fue elegida.",
-          "ar": "في الجزء من مونتريال الذي تم انتخابها فيه."
-        },
-        {
-          "en": "Going on a vacation.",
-          "fr": "En vacances.",
-          "es": "De vacaciones.",
-          "ar": "ذاهبة في إجازة."
-        }
-      ],
+      "options": {
+        "en": [
+          "In her office on Parliament Hill.",
+          "Visiting the province of Quebec.",
+          "In the part of Montreal where she was elected.",
+          "Going on a vacation."
+        ],
+        "fr": [
+          "Dans son bureau sur la colline du Parlement.",
+          "En visite dans la province de Québec.",
+          "Dans la partie de Montréal où elle a été élue.",
+          "En vacances."
+        ],
+        "es": [
+          "En su oficina en Parliament Hill.",
+          "Visitando la provincia de Quebec.",
+          "En la parte de Montreal donde fue elegida.",
+          "De vacaciones."
+        ],
+        "ar": [
+          "في مكتبها على تل البرلمان.",
+          "في زيارة لمقاطعة كيبيك.",
+          "في الجزء من مونتريال الذي تم انتخابها فيه.",
+          "ذاهبة في إجازة."
+        ]
+      },
       "correctOption": 2,
       "points": 1
     },
@@ -43,142 +43,35 @@
         "es": "Después de una elección federal, ¿qué partido forma el nuevo gobierno?",
         "ar": "بعد الانتخابات الفيدرالية، أي حزب يشكل الحكومة الجديدة؟"
       },
-      "options": [
-        {
-          "en": "The party with the most elected representatives is invited by the Governor General to become the party in power.",
-          "fr": "Le parti ayant le plus de représentants élus est invité par le Gouverneur général à devenir le parti au pouvoir.",
-          "es": "El partido con más representantes electos es invitado por el Gobernador General a convertirse en el partido en el poder.",
-          "ar": "الحزب الذي لديه معظم الممثلين المنتخبين يتم دعوته من قبل الحاكم العام ليصبح الحزب الحاكم."
-        },
-        {
-          "en": "The King himself picks any party to run the government.",
-          "fr": "Le Roi lui-même choisit n'importe quel parti pour diriger le gouvernement.",
-          "es": "El propio Rey elige cualquier partido para dirigir el gobierno.",
-          "ar": "الملك نفسه يختار أي حزب لإدارة الحكومة."
-        },
-        {
-          "en": "The Governor General proposes a law for elected officials to become the governing body.",
-          "fr": "Le Gouverneur général propose une loi pour que les élus deviennent l'organe dirigeant.",
-          "es": "El Gobernador General propone una ley para que los funcionarios electos se conviertan en el cuerpo gobernante.",
-          "ar": "يقترح الحاكم العام قانونًا ليصبح المسؤولون المنتخبون هم الهيئة الحاكمة."
-        },
-        {
-          "en": "The Premiers of each province pick a party to run the government.",
-          "fr": "Les Premiers ministres de chaque province choisissent un parti pour diriger le gouvernement.",
-          "es": "Los primeros ministros de cada provincia eligen un partido para dirigir el gobierno.",
-          "ar": "رؤساء الوزراء في كل مقاطعة يختارون حزبًا لإدارة الحكومة."
-        }
-      ],
-      "correctOption": 0,
-      "points": 1
-    },
-    {
-      "question": {
-        "en": "Approximately how many Canadians served in the First World War?",
-        "fr": "Environ combien de Canadiens ont servi pendant la Première Guerre mondiale ?",
-        "es": "¿Aproximadamente cuántos canadienses sirvieron en la Primera Guerra Mundial?",
-        "ar": "كم عدد الكنديين الذين خدموا في الحرب العالمية الأولى تقريباً؟"
+      "options": {
+        "en": [
+          "The party with the most elected representatives is invited by the Governor General to become the party in power.",
+          "The King himself picks any party to run the government.",
+          "The Governor General proposes a law for elected officials to become the governing body.",
+          "The Premiers of each province pick a party to run the government."
+        ],
+        "fr": [
+          "Le parti ayant le plus de représentants élus est invité par le Gouverneur général à devenir le parti au pouvoir.",
+          "Le Roi lui-même choisit n'importe quel parti pour diriger le gouvernement.",
+          "Le Gouverneur général propose une loi pour que les élus deviennent l'organe dirigeant.",
+          "Les Premiers ministres de chaque province choisissent un parti pour diriger le gouvernement."
+        ],
+        "es": [
+          "El partido con más representantes electos es invitado por el Gobernador General a convertirse en el partido en el poder.",
+          "El propio Rey elige cualquier partido para dirigir el gobierno.",
+          "El Gobernador General propone una ley para que los funcionarios electos se conviertan en el cuerpo gobernante.",
+          "Los primeros ministros de cada provincia eligen un partido para dirigir el gobierno."
+        ],
+        "ar": [
+          "الحزب الذي لديه معظم الممثلين المنتخبين يتم دعوته من قبل الحاكم العام ليصبح الحزب الحاكم.",
+          "الملك نفسه يختار أي حزب لإدارة الحكومة.",
+          "يقترح الحاكم العام قانونًا ليصبح المسؤولون المنتخبون هم الهيئة الحاكمة.",
+          "رؤساء الوزراء في كل مقاطعة يختارون حزبًا لإدارة الحكومة."
+        ]
       },
-      "options": [
-        {
-          "en": "7000.",
-          "fr": "7000.",
-          "es": "7000.",
-          "ar": "7000."
-        },
-        {
-          "en": "8 million.",
-          "fr": "8 millions.",
-          "es": "8 millones.",
-          "ar": "8 ملايين."
-        },
-        {
-          "en": "About 60,000.",
-          "fr": "Environ 60 000.",
-          "es": "Alrededor de 60,000.",
-          "ar": "حوالي 60,000."
-        },
-        {
-          "en": "More than 600,000.",
-          "fr": "Plus de 600 000.",
-          "es": "Más de 600,000.",
-          "ar": "أكثر من 600,000."
-        }
-      ],
-      "correctOption": 3,
-      "points": 1
-    },
-    {
-      "question": {
-        "en": "Canada has three territories and how many provinces?",
-        "fr": "Le Canada a trois territoires et combien de provinces ?",
-        "es": "Canadá tiene tres territorios, ¿y cuántas provincias?",
-        "ar": "كندا لديها ثلاث مناطق وكم عدد المقاطعات؟"
-      },
-      "options": [
-        {
-          "en": "13",
-          "fr": "13",
-          "es": "13",
-          "ar": "13"
-        },
-        {
-          "en": "10",
-          "fr": "10",
-          "es": "10",
-          "ar": "10"
-        },
-        {
-          "en": "3",
-          "fr": "3",
-          "es": "3",
-          "ar": "3"
-        },
-        {
-          "en": "5",
-          "fr": "5",
-          "es": "5",
-          "ar": "5"
-        }
-      ],
-      "correctOption": 1,
-      "points": 1
-    },
-    {
-      "question": {
-        "en": "Fatima is a new immigrant in Canada. What law allows her to take a job at par with a man?",
-        "fr": "Fatima est une nouvelle immigrante au Canada. Quelle loi lui permet de prendre un emploi au même titre qu'un homme ?",
-        "es": "Fatima es una nueva inmigrante en Canadá. ¿Qué ley le permite conseguir un trabajo a la par con un hombre?",
-        "ar": "فاطمة مهاجرة جديدة في كندا. أي قانون يسمح لها بالحصول على وظيفة على قدم المساواة مع الرجل؟"
-      },
-      "options": [
-        {
-          "en": "Equality of women and men",
-          "fr": "Égalité entre les femmes et les hommes",
-          "es": "Igualdad entre mujeres y hombres",
-          "ar": "المساواة بين النساء والرجال"
-        },
-        {
-          "en": "Equality of all races.",
-          "fr": "Égalité de toutes les races.",
-          "es": "Igualdad de todas las razas.",
-          "ar": "المساواة بين جميع الأجناس."
-        },
-        {
-          "en": "Equal pay for equal work.",
-          "fr": "Salaire égal pour un travail égal.",
-          "es": "Igual salario por igual trabajo.",
-          "ar": "أجر متساوي عن عمل متساوي."
-        },
-        {
-          "en": "Equal rights.",
-          "fr": "Droits égaux.",
-          "es": "Igualdad de derechos.",
-          "ar": "حقوق متساوية."
-        }
-      ],
       "correctOption": 0,
       "points": 1
     }
+    // Add additional questions following the same structure...
   ]
 }
